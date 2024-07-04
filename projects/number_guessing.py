@@ -21,7 +21,7 @@ while attempts:
     elif guess < number:
         print("Too low")
     else:
-        Print("You have got it right. the answer is {guess}")
+        print("You have got it right. the answer is {guess}")
         break
 
     attempts -= 1
